@@ -177,6 +177,16 @@ body {
 
 .back-btn:hover { border-color: var(--accent); color: var(--accent); }
 
+.detail-note {
+  background: #fff7e6;
+  border: 1px solid #f0c975;
+  color: #7a5300;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin: 0 0 18px;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
