@@ -16,7 +16,13 @@ const GROUPS = [
       { file: "02 View360_Chu nhom 01.png", caption: "Hình 1. Số điện thoại tra cứu là số chủ nhóm: View360 – CCBS – Gói cước gia đình – Tra cứu thuê bao: tra cứu được gói đang dùng" },
       { file: "02 View360_Chu nhom_02.png", caption: "Hình 2. Số điện thoại tra cứu là số chủ nhóm: View360 – CCBS – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: tra cứu được danh sách thành viên" },
       { file: "02 View360_Thanh vien 01.png", caption: "Hình 3. Số điện thoại tra cứu là số thành viên: View360 – CCBS – Gói cước gia đình – Tra cứu thuê bao: tra cứu được gói đang dùng" },
-      { file: "02 View360_Thanh vien 02.png", caption: "Hình 4. Số điện thoại tra cứu là số thành viên: View360 – CCBS – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: không tra cứu được số chủ nhóm và danh sách thành viên" }
+      { file: "02 View360_Thanh vien 02.png", caption: "Hình 4. Số điện thoại tra cứu là số thành viên: View360 – CCBS – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: không tra cứu được số chủ nhóm và danh sách thành viên" },
+      { file: "03 View360 01 Thanh vien goi Home Dinh chi tra cuu duoc goi.png", caption: "Hình 5. Số điện thoại tra cứu là số thành viên gói Home Đình: View360 – Gói cước gia đình – Tra cứu thuê bao: tra cứu được gói đang dùng" },
+      { file: "03 View360 02 Thanh vien goi Home Dinh kg tra cuu dc danh sach thanh vien.png", caption: "Hình 6. Số điện thoại tra cứu là số thành viên gói Home Đình: View360 – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: không tra cứu được danh sách thành viên" },
+      { file: "04 View360_Chu nhom_Home TK_01.png", caption: "Hình 7. Số điện thoại tra cứu là số chủ nhóm gói Home Tiết kiệm: View360 – Gói cước gia đình – Tra cứu thuê bao: tra cứu được các gói đang dùng" },
+      { file: "04 View360_Chu nhom_Home TK_02.png", caption: "Hình 8. Số điện thoại tra cứu là số chủ nhóm gói Home Tiết kiệm: View360 – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: tra cứu được danh sách thành viên" },
+      { file: "04 View360_Thanh vien_Home TK 01.png", caption: "Hình 9. Số điện thoại tra cứu là số thành viên gói Home Tiết kiệm: View360 – Gói cước gia đình – Tra cứu thuê bao: tra cứu được gói đang dùng" },
+      { file: "04 View360_Thanh vien_Home TK 02.png", caption: "Hình 10. Số điện thoại tra cứu là số thành viên gói Home Tiết kiệm: View360 – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: không tra cứu được danh sách thành viên" }
     ]
   },
   {
