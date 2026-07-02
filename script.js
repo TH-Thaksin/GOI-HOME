@@ -12,7 +12,6 @@ const GROUPS = [
     key: "view360",
     title: "VIEW360",
     subtitle: "Tra cứu gói cước, danh sách thành viên gói Home từ CCBS – View360",
-    note: "Lưu ý: dữ liệu View360 không online nên có trường hợp KH đã huỷ gói Home/huỷ thành viên gói Home nhưng tra cứu vẫn còn thông tin gói.",
     images: [
       { file: "02 View360_Chu nhom 01.png", caption: "Hình 1. Số điện thoại tra cứu là số chủ nhóm: View360 – CCBS – Gói cước gia đình – Tra cứu thuê bao: tra cứu được gói đang dùng" },
       { file: "02 View360_Chu nhom_02.png", caption: "Hình 2. Số điện thoại tra cứu là số chủ nhóm: View360 – CCBS – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: tra cứu được danh sách thành viên" },
