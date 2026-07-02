@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cẩm nang tra cứu điện thoại viên</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark">CN</span>
+      <div class="brand-text">
+        <span class="brand-title">Cẩm nang tra cứu điện thoại viên</span>
+        <span class="brand-subtitle">CCBS · VIEW360 · ECMS · ONEBSS</span>
+      </div>
+    </div>
+    <nav class="topnav">
+      <a href="#" class="topnav-link active" data-nav="home">Trang chủ</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section id="view-home" class="view">
+    <h1 class="page-title">Chọn hệ thống cần tra cứu</h1>
+    <p class="page-desc">Lưới 4 mục tra cứu chính. Chọn một hệ thống để xem lại các màn hình thao tác.</p>
+    <div class="grid" id="group-grid"></div>
+  </section>
+
+  <section id="view-detail" class="view hidden">
+    <button class="back-btn" id="back-btn">&larr; Quay lại</button>
+    <div class="detail-head">
+      <h1 class="page-title" id="detail-title"></h1>
+      <p class="page-desc" id="detail-subtitle"></p>
+    </div>
+    <div class="gallery" id="detail-gallery"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Tài liệu tra cứu nội bộ dành cho điện thoại viên · Nội dung tổng hợp từ ảnh chụp màn hình nghiệp vụ.</p>
+</footer>
+
+<div id="lightbox" class="lightbox hidden">
+  <button class="lightbox-close" id="lightbox-close">&times;</button>
+  <button class="lightbox-prev" id="lightbox-prev">&#10094;</button>
+  <img id="lightbox-img" src="" alt="">
+  <button class="lightbox-next" id="lightbox-next">&#10095;</button>
+  <p class="lightbox-caption" id="lightbox-caption"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
