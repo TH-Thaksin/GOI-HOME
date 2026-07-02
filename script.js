@@ -24,12 +24,9 @@ const GROUPS = [
     key: "ecms",
     title: "ECMS",
     subtitle: "Tra cứu xác định số điện thoại chủ nhóm/thành viên qua ECMS",
-    note: "Ghi chú: chủ nhóm và thành viên cùng code Value.",
     images: [
       { file: "03 ECMS chu nhom 01.png", caption: "Hình 1. ECMS – Offer – Provider Yes là số Chủ nhóm gói Home có thành phần di động" },
-      { file: "03 ECMS thanh vien 01.png", caption: "Hình 2. ECMS – Offer – Provider No là số thành viên gói Home có thành phần di động" },
-      { file: "03 ECMS chu nhom 02.png", caption: "Hình 3. ECMS – Contract overview – Rate plan and services – CS Community – Value – chủ nhóm" },
-      { file: "03 ECMS thanh vien 02.png", caption: "Hình 4. ECMS – Contract overview – Rate plan and services – CS Community – Value – thành viên" }
+      { file: "03 ECMS thanh vien 01.png", caption: "Hình 2. ECMS – Offer – Provider No là số thành viên gói Home có thành phần di động" }
     ]
   },
   {
