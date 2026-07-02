@@ -187,6 +187,19 @@ body {
   margin: 0 0 18px;
 }
 
+.subgroup {
+  margin-bottom: 30px;
+}
+
+.subgroup-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent-dark);
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border);
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

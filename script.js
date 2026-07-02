@@ -12,17 +12,40 @@ const GROUPS = [
     key: "view360",
     title: "VIEW360",
     subtitle: "Tra cứu gói cước, danh sách thành viên gói Home từ CCBS – View360",
-    images: [
-      { file: "02 View360_Chu nhom 01.png", caption: "Hình 1. Số điện thoại tra cứu là số chủ nhóm: View360 – CCBS – Gói cước gia đình – Tra cứu thuê bao: tra cứu được gói đang dùng" },
-      { file: "02 View360_Chu nhom_02.png", caption: "Hình 2. Số điện thoại tra cứu là số chủ nhóm: View360 – CCBS – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: tra cứu được danh sách thành viên" },
-      { file: "02 View360_Thanh vien 01.png", caption: "Hình 3. Số điện thoại tra cứu là số thành viên: View360 – CCBS – Gói cước gia đình – Tra cứu thuê bao: tra cứu được gói đang dùng" },
-      { file: "02 View360_Thanh vien 02.png", caption: "Hình 4. Số điện thoại tra cứu là số thành viên: View360 – CCBS – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: không tra cứu được số chủ nhóm và danh sách thành viên" },
-      { file: "03 View360 01 Thanh vien goi Home Dinh chi tra cuu duoc goi.png", caption: "Hình 5. Số điện thoại tra cứu là số thành viên gói Home Đình: View360 – Gói cước gia đình – Tra cứu thuê bao: tra cứu được gói đang dùng" },
-      { file: "03 View360 02 Thanh vien goi Home Dinh kg tra cuu dc danh sach thanh vien.png", caption: "Hình 6. Số điện thoại tra cứu là số thành viên gói Home Đình: View360 – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: không tra cứu được danh sách thành viên" },
-      { file: "04 View360_Chu nhom_Home TK_01.png", caption: "Hình 7. Số điện thoại tra cứu là số chủ nhóm gói Home Tiết kiệm: View360 – Gói cước gia đình – Tra cứu thuê bao: tra cứu được các gói đang dùng" },
-      { file: "04 View360_Chu nhom_Home TK_02.png", caption: "Hình 8. Số điện thoại tra cứu là số chủ nhóm gói Home Tiết kiệm: View360 – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: tra cứu được danh sách thành viên" },
-      { file: "04 View360_Thanh vien_Home TK 01.png", caption: "Hình 9. Số điện thoại tra cứu là số thành viên gói Home Tiết kiệm: View360 – Gói cước gia đình – Tra cứu thuê bao: tra cứu được gói đang dùng" },
-      { file: "04 View360_Thanh vien_Home TK 02.png", caption: "Hình 10. Số điện thoại tra cứu là số thành viên gói Home Tiết kiệm: View360 – Gói cước gia đình – Tra cứu trưởng nhóm/thành viên: không tra cứu được danh sách thành viên" }
+    subgroups: [
+      {
+        name: "GD0",
+        images: [
+          { file: "view360/GD0/01 View360_Chu nhom 01_Tra cuu goi.png", caption: "View360_Chu nhom 01_Tra cuu goi" },
+          { file: "view360/GD0/02 View360_Chu nhom 02_Tra cuu thanh vien.png", caption: "View360_Chu nhom 02_Tra cuu thanh vien" },
+          { file: "view360/GD0/02 View360_Thanh vien 01_Tra cuu goi.png", caption: "View360_Thanh vien 01_Tra cuu goi" },
+          { file: "view360/GD0/02 View360_Thanh vien 02_Khong tra cuu duoc chu nhom thanh vien.png", caption: "View360_Thanh vien 02_Khong tra cuu duoc chu nhom thanh vien" }
+        ]
+      },
+      {
+        name: "HOME SANH",
+        images: [
+          { file: "view360/HOME SANH/01 Tra cuu goi.jpg", caption: "01 Tra cuu goi" },
+          { file: "view360/HOME SANH/02 Tra cuu thanh vien.jpg", caption: "02 Tra cuu thanh vien" }
+        ]
+      },
+      {
+        name: "HOME DINH",
+        images: [
+          { file: "view360/HOME DINH/01 View360 01 Thanh vien goi Home Dinh_Ttra cuu goi.png", caption: "View360 01 Thanh vien goi Home Dinh_Ttra cuu goi" },
+          { file: "view360/HOME DINH/02 View360 02 Thanh vien goi Home Dinh khong tra cuu duoc danh sach thanh vien.png", caption: "View360 02 Thanh vien goi Home Dinh khong tra cuu duoc danh sach thanh vien" },
+          { file: "view360/HOME DINH/03 oneBSS 03 Home Dinh tra cuu Chu nhom Thanh vien tren Tra cuu tong hop.png", caption: "oneBSS 03 Home Dinh tra cuu Chu nhom Thanh vien tren Tra cuu tong hop" }
+        ]
+      },
+      {
+        name: "HOME TIET KIEM",
+        images: [
+          { file: "view360/HOME TIET KIEM/01 View360_Chu nhom_Home TK_Tra cuu goi.png", caption: "View360_Chu nhom_Home TK_Tra cuu goi" },
+          { file: "view360/HOME TIET KIEM/02 View360_Chu nhom_Home TK_Tra cuu danh sach thanh vien.png", caption: "View360_Chu nhom_Home TK_Tra cuu danh sach thanh vien" },
+          { file: "view360/HOME TIET KIEM/03 View360_Thanh vien_Home TK_Tra cuu goi.png", caption: "View360_Thanh vien_Home TK_Tra cuu goi" },
+          { file: "view360/HOME TIET KIEM/04 View360_Thanh vien_Home TK_Khong tra cuu duoc chu nhom thanh vien.png", caption: "View360_Thanh vien_Home TK_Khong tra cuu duoc chu nhom thanh vien" }
+        ]
+      }
     ]
   },
   {
@@ -68,10 +91,17 @@ const lightboxPrev = document.getElementById("lightbox-prev");
 const lightboxNext = document.getElementById("lightbox-next");
 
 let activeGroup = null;
+let activeImages = [];
 let activeIndex = 0;
 
+function groupImages(group) {
+  if (group.images) return group.images;
+  if (group.subgroups) return group.subgroups.flatMap(sg => sg.images);
+  return [];
+}
+
 function imgSrc(file) {
-  return "images/" + encodeURIComponent(file);
+  return "images/" + file.split("/").map(encodeURIComponent).join("/");
 }
 
 function renderHome() {
@@ -82,7 +112,7 @@ function renderHome() {
     card.innerHTML = `
       <div class="card-top">
         <span class="card-title">${group.title}</span>
-        <span class="card-badge">${group.images.length} ảnh</span>
+        <span class="card-badge">${groupImages(group).length} ảnh</span>
       </div>
       <p class="card-subtitle">${group.subtitle}</p>
       <span class="card-action">Xem hướng dẫn tra cứu &rarr;</span>
@@ -92,8 +122,23 @@ function renderHome() {
   });
 }
 
+function renderGalleryItems(container, images, indexOffset) {
+  images.forEach((img, i) => {
+    const idx = indexOffset + i;
+    const item = document.createElement("div");
+    item.className = "gallery-item";
+    item.innerHTML = `
+      <img src="${imgSrc(img.file)}" alt="${img.caption}">
+      <div class="gallery-caption">${img.caption}</div>
+    `;
+    item.addEventListener("click", () => openLightbox(idx));
+    container.appendChild(item);
+  });
+}
+
 function openGroup(group) {
   activeGroup = group;
+  activeImages = groupImages(group);
   detailTitle.textContent = group.title;
   detailSubtitle.textContent = group.subtitle;
   if (group.note) {
@@ -104,16 +149,29 @@ function openGroup(group) {
     detailNote.classList.add("hidden");
   }
   detailGallery.innerHTML = "";
-  group.images.forEach((img, idx) => {
-    const item = document.createElement("div");
-    item.className = "gallery-item";
-    item.innerHTML = `
-      <img src="${imgSrc(img.file)}" alt="${img.caption}">
-      <div class="gallery-caption">${img.caption}</div>
-    `;
-    item.addEventListener("click", () => openLightbox(idx));
-    detailGallery.appendChild(item);
-  });
+  detailGallery.classList.remove("gallery");
+
+  if (group.subgroups) {
+    let offset = 0;
+    group.subgroups.forEach(sg => {
+      const section = document.createElement("div");
+      section.className = "subgroup";
+      const heading = document.createElement("h2");
+      heading.className = "subgroup-title";
+      heading.textContent = sg.name;
+      const grid = document.createElement("div");
+      grid.className = "gallery";
+      section.appendChild(heading);
+      section.appendChild(grid);
+      detailGallery.appendChild(section);
+      renderGalleryItems(grid, sg.images, offset);
+      offset += sg.images.length;
+    });
+  } else {
+    detailGallery.classList.add("gallery");
+    renderGalleryItems(detailGallery, group.images, 0);
+  }
+
   viewHome.classList.add("hidden");
   viewDetail.classList.remove("hidden");
   window.scrollTo(0, 0);
@@ -122,21 +180,23 @@ function openGroup(group) {
 function goHome() {
   viewDetail.classList.add("hidden");
   viewHome.classList.remove("hidden");
+  detailGallery.classList.remove("gallery");
   activeGroup = null;
+  activeImages = [];
 }
 
 function openLightbox(index) {
-  if (!activeGroup) return;
+  if (!activeImages.length) return;
   activeIndex = index;
   updateLightbox();
   lightbox.classList.remove("hidden");
 }
 
 function updateLightbox() {
-  const img = activeGroup.images[activeIndex];
+  const img = activeImages[activeIndex];
   lightboxImg.src = imgSrc(img.file);
   lightboxImg.alt = img.caption;
-  lightboxCaption.textContent = `${activeGroup.title} — ${img.caption} (${activeIndex + 1}/${activeGroup.images.length})`;
+  lightboxCaption.textContent = `${activeGroup.title} — ${img.caption} (${activeIndex + 1}/${activeImages.length})`;
 }
 
 function closeLightbox() {
@@ -144,8 +204,8 @@ function closeLightbox() {
 }
 
 function stepLightbox(delta) {
-  if (!activeGroup) return;
-  const len = activeGroup.images.length;
+  if (!activeImages.length) return;
+  const len = activeImages.length;
   activeIndex = (activeIndex + delta + len) % len;
   updateLightbox();
 }
